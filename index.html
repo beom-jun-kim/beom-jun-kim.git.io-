@@ -37,9 +37,9 @@
     <!-- skip -->
     <a id="skip" href="#work" tabindex="1">본문 바로가기</a>
 
-    <!-- <script>
+    <script>
         AOS.init();
-    </script> -->
+    </script>
 
 <!-- =================== header ================ -->
 <header id="header" class="header">
@@ -126,25 +126,27 @@
 
 <!--================= greeting =============== -->
 <!-- <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> -->
-<section class="inner" id="greeting">
-    <div class="greeting__wrap">
-        <div class="greeting__img">
-            <img src="./img/me.jpg" alt="" class="greeting__main--image">
+<div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+    <section class="inner" id="greeting">
+        <div class="greeting__wrap">
+            <div class="greeting__img">
+                <img src="./img/me.jpg" alt="" class="greeting__main--image">
+            </div>
+            <div class="greeting__desc">
+                <h1>안녕하세요 <br>
+                    웹퍼블리셔 김범준입니다
+                </h1>
+                <p> 
+                    웹 표준성, 웹 호환성, 웹 접근성을 지키고<br>
+                    조율하고 타협하고 잘 녹아드는 웹 퍼블리셔가 되겠습니다
+                </p>
+                <img src="./img/workspace-1280538_640.jpg" alt="" class="greeting__sub--img">
+                <img src="./img/paper-3213924_640.jpg" alt="" class="greeting__sub--img">
+                <img src="./img/woman-591576_640.jpg" alt="" class="greeting__sub--img">
+            </div>
         </div>
-        <div class="greeting__desc">
-            <h1>안녕하세요 <br>
-                웹퍼블리셔 김범준입니다
-            </h1>
-            <p> 
-                웹 표준성, 웹 호환성, 웹 접근성을 지키고<br>
-                조율하고 타협하고 잘 녹아드는 웹 퍼블리셔가 되겠습니다
-            </p>
-            <img src="./img/workspace-1280538_640.jpg" alt="" class="greeting__sub--img">
-            <img src="./img/paper-3213924_640.jpg" alt="" class="greeting__sub--img">
-            <img src="./img/woman-591576_640.jpg" alt="" class="greeting__sub--img">
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 <!--================= greeting end =============== -->
 
 <!--================= about =============== -->
@@ -161,78 +163,90 @@
         </div>
     </div>
     <div class="about__history--wrap">
-        <div class="about__item">
-            <div class="about__item--desc">
-                <img src="./img/html.png" alt="">
-                <div class="about__item--text">
-                    <h2>1개월차 - html</h2>
-                    <p> 
-                        html의 시맨틱 태그들을 배우고
-                        로그인, 약관, 가입하기 위주의 여러 마크업
-                        실습들을 진행 하였습니다
-                    </p>
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <div class="about__item">
+                <div class="about__item--desc">
+                    <img src="./img/html.png" alt="">
+                    <div class="about__item--text">
+                        <h2>1개월차 - html</h2>
+                        <p> 
+                            html의 시맨틱 태그들을 배우고
+                            로그인, 약관, 가입하기 위주의 여러 마크업
+                            실습들을 진행 하였습니다
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="about__item right">
-            <div class="about__item--desc">
-                <div class="about__item--text">
-                    <h2>2개월차 - CSS</h2>
-                    <p> 
-                        CSS언어를 통해 각 레이아웃을 위치시키는 법등을 배웠고
-                        style을 입히는 작업을 하였습니다
-                    </p>
-                </div>
-                <img src="./img/css.png" alt="">
-            </div>
-        </div>
-        <div class="about__item">
-            <div class="about__item--desc">
-                <img src="./img/responsive img.png" alt="">
-                <div class="about__item--text">
-                    <h2>3개월차 - 반응형</h2>
-                    <p> 
-                        반응형에 필수적인 미디어쿼리를 통해 grid를 달리하여서
-                        태블릿이나 모바일에서 보여지는 화면 구현을 배웠습니다
-                    </p>
+        <div data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+            <div class="about__item right">
+                <div class="about__item--desc">
+                    <div class="about__item--text">
+                        <h2>2개월차 - CSS</h2>
+                        <p> 
+                            CSS언어를 통해 각 레이아웃을 위치시키는 법등을 배웠고
+                            style을 입히는 작업을 하였습니다
+                        </p>
+                    </div>
+                    <img src="./img/css.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="about__item right">
-            <div class="about__item--desc">
-                <div class="about__item--text">
-                    <h2>4개월차 - Javascript</h2>
-                    <p> 
-                        Javascript의 기본인 함수선언부터 시작하여 클릭 이벤트를 통하여 컨텐츠들을 더욱 동적으로 바꾸는 법까지 
-                        배워보았습니다
-                    </p>
-                </div>
-                <img src="./img/js.png" alt="">
-            </div>
-        </div>
-        <div class="about__item">
-            <div class="about__item--desc">
-                <img src="./img/html.png" alt="">
-                <div class="about__item--text">
-                    <h2>5개월차 - jQuery</h2>
-                    <p> 
-                        jQuery 라이브러리로 더욱 쉽게 실행시키면서
-                        여러가지 방법으로 컨텐츠를 역동적이게 
-                        구현이 되도록 해보았습니다 
-                    </p>
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <div class="about__item">
+                <div class="about__item--desc">
+                    <img src="./img/responsive img.png" alt="">
+                    <div class="about__item--text">
+                        <h2>3개월차 - 반응형</h2>
+                        <p> 
+                            반응형에 필수적인 미디어쿼리를 통해 grid를 달리하여서
+                            태블릿이나 모바일에서 보여지는 화면 구현을 배웠습니다
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="about__item right">
-            <div class="about__item--desc">
-                <div class="about__item--text">
-                    <h2>실습</h2>
-                    <p> 
-                        홈페이지 리뉴얼과 많은 클론 코딩을 통해
-                        업무적 역량을 더욱 극대화 시켰습니다
-                    </p>
+        <div data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+            <div class="about__item right">
+                <div class="about__item--desc">
+                    <div class="about__item--text">
+                        <h2>4개월차 - Javascript</h2>
+                        <p> 
+                            Javascript의 기본인 함수선언부터 시작하여 클릭 이벤트를 통하여 컨텐츠들을 더욱 동적으로 바꾸는 법까지 
+                            배워보았습니다
+                        </p>
+                    </div>
+                    <img src="./img/js.png" alt="">
                 </div>
-                <img src="./img/html.png" alt="">
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <div class="about__item">
+                <div class="about__item--desc">
+                    <img src="./img/html.png" alt="">
+                    <div class="about__item--text">
+                        <h2>5개월차 - jQuery</h2>
+                        <p> 
+                            jQuery 라이브러리로 더욱 쉽게 실행시키면서
+                            여러가지 방법으로 컨텐츠를 역동적이게 
+                            구현이 되도록 해보았습니다 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+            <div class="about__item right">
+                <div class="about__item--desc">
+                    <div class="about__item--text">
+                        <h2>실습</h2>
+                        <p> 
+                            홈페이지 리뉴얼과 많은 클론 코딩을 통해
+                            업무적 역량을 더욱 극대화 시켰습니다
+                        </p>
+                    </div>
+                    <img src="./img/html.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -253,128 +267,130 @@
         </div>
     </div>
     <!-- ================== skill progress 영역 ================== -->
-    <ul class="skills__list">
-        <li class="skills__item">
-            <div class="skills__header">
-                <div class="skills__title">
-                    <i class="uil uil-brackets-curly skill__icon"></i>
-                    <div class="skills__desc">
-                        <h2>Web Publisher</h2>
+    <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <ul class="skills__list">
+            <li class="skills__item">
+                <div class="skills__header">
+                    <div class="skills__title">
+                        <i class="uil uil-brackets-curly skill__icon"></i>
+                        <div class="skills__desc">
+                            <h2>Web Publisher</h2>
+                        </div>
                     </div>
+                    <i class="uil uil-angle-down skill__icon--arrow"></i>
                 </div>
-                <i class="uil uil-angle-down skill__icon--arrow"></i>
-            </div>
-            <ul class="skill__data">
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>HTML</h3>
-                        <span>90%</span>
+                <ul class="skill__data">
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>HTML</h3>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line1"></span>
+                        </div>
+                    </li>
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>CSS</h3>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line2"></span>
+                        </div>
+                    </li>
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>Javascript</h3>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line3"></span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="skills__item">
+                <div class="skills__header">
+                    <div class="skills__title">
+                        <i class="uil uil-swatchbook skill__icon"></i>
+                        <div class="skills__desc">
+                            <h2>Designer</h2>
+                        </div>
                     </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line1"></span>
-                    </div>
-                </li>
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>CSS</h3>
-                        <span>80%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line2"></span>
-                    </div>
-                </li>
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>Javascript</h3>
-                        <span>60%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line3"></span>
-                    </div>
-                </li>
-            </ul>
-        </li>
-        <li class="skills__item">
-            <div class="skills__header">
-                <div class="skills__title">
-                    <i class="uil uil-swatchbook skill__icon"></i>
-                    <div class="skills__desc">
-                        <h2>Designer</h2>
-                    </div>
+                    <i class="uil uil-angle-down skill__icon--arrow"></i>
                 </div>
-                <i class="uil uil-angle-down skill__icon--arrow"></i>
-            </div>
-            <ul class="skill__data">
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>Photoshop</h3>
-                        <span>70%</span>
+                <ul class="skill__data">
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>Photoshop</h3>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line4"></span>
+                        </div>
+                    </li>
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>Illustrator</h3>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line5"></span>
+                        </div>
+                    </li>
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>Indesign</h3>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line6"></span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="skills__item">
+                <div class="skills__header">
+                    <div class="skills__title">
+                        <i class="uil uil-server-network skill__icon"></i>
+                        <div class="skills__desc">
+                            <h2>Etc skills</h2>
+                        </div>
                     </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line4"></span>
-                    </div>
-                </li>
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>Illustrator</h3>
-                        <span>70%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line5"></span>
-                    </div>
-                </li>
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>Indesign</h3>
-                        <span>50%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line6"></span>
-                    </div>
-                </li>
-            </ul>
-        </li>
-        <li class="skills__item">
-            <div class="skills__header">
-                <div class="skills__title">
-                    <i class="uil uil-server-network skill__icon"></i>
-                    <div class="skills__desc">
-                        <h2>Etc skills</h2>
-                    </div>
+                    <i class="uil uil-angle-down skill__icon--arrow"></i>
                 </div>
-                <i class="uil uil-angle-down skill__icon--arrow"></i>
-            </div>
-            <ul class="skill__data">
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>blog</h3>
-                        <span>90%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line7"></span>
-                    </div>
-                </li>
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>Premierepro</h3>
-                        <span>70%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line8"></span>
-                    </div>
-                </li>
-                <li class="skill__progress">
-                    <div class="skill__titles">
-                        <h3>Git</h3>
-                        <span>60%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <span class="skill_percent line9"></span>
-                    </div>
-                </li>
-            </ul>
-        </li>
-    </ul>
+                <ul class="skill__data">
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>blog</h3>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line7"></span>
+                        </div>
+                    </li>
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>Premierepro</h3>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line8"></span>
+                        </div>
+                    </li>
+                    <li class="skill__progress">
+                        <div class="skill__titles">
+                            <h3>Git</h3>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <span class="skill_percent line9"></span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </section>
 <!-- ================== skills end ================== -->
 
@@ -390,59 +406,61 @@
             </p>
         </div>
     </div>
-    <div class="portfolio__slider">
-        <div>
-            <div class="slider__content  slider__content--first inner">
-                <div class="slider__img">
-                    <img src="./img/musinsa-img.png" alt="">
-                    <div class="portfolio__slider--desc">
-                        <h1>musinsa renewal</h1>
-                        <a href="https://beom-jun-kim.github.io/musinsa-renewal/">view site
-                            <i class="xi-arrow-right"></i>
-                        </a>
+<div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <div class="portfolio__slider">
+            <div>
+                <div class="slider__content  slider__content--first inner">
+                    <div class="slider__img">
+                        <img src="./img/musinsa-img.png" alt="">
+                        <div class="portfolio__slider--desc">
+                            <h1>musinsa renewal</h1>
+                            <a href="https://beom-jun-kim.github.io/musinsa-renewal/">view site
+                                <i class="xi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slider__content  slider__content--second inner">
+                    <div class="slider__img">
+                        <img src="./img/Seoul National University.png" alt="">
+                        <div class="portfolio__slider--desc">
+                            <h1>seoulUniversity clone</h1>
+                            <a href="https://beom-jun-kim.github.io/seoulUniversity-clone/">view site
+                                <i class="xi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slider__content  slider__content--third inner">
+                    <div class="slider__img">
+                        <img src="./img/hanhwa.png" alt="">
+                        <div class="portfolio__slider--desc">
+                            <h1>hanwha clone</h1>
+                            <a href="https://beom-jun-kim.github.io/hanhwa-clone/">view site
+                                <i class="xi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slider__content  slider__content--fourth inner">
+                    <div class="slider__img">
+                        <img src="./img/The-k clone.png" alt="">
+                        <div class="portfolio__slider--desc">
+                            <h1>The-k clone</h1>
+                            <a href="#">작업중...</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div>
-            <div class="slider__content  slider__content--second inner">
-                <div class="slider__img">
-                    <img src="./img/Seoul National University.png" alt="">
-                    <div class="portfolio__slider--desc">
-                        <h1>seoulUniversity clone</h1>
-                        <a href="https://beom-jun-kim.github.io/seoulUniversity-clone/">view site
-                            <i class="xi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="slider__content  slider__content--third inner">
-                <div class="slider__img">
-                    <img src="./img/hanhwa.png" alt="">
-                    <div class="portfolio__slider--desc">
-                        <h1>hanwha clone</h1>
-                        <a href="https://beom-jun-kim.github.io/hanhwa-clone/">view site
-                            <i class="xi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="slider__content  slider__content--fourth inner">
-                <div class="slider__img">
-                    <img src="./img/The-k clone.png" alt="">
-                    <div class="portfolio__slider--desc">
-                        <h1>The-k clone</h1>
-                        <a href="#">작업중...</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 <!-- ================== portfolio end ================== -->
 
 <!-- ================== works ================== -->
@@ -459,63 +477,64 @@
             </div>
         </div>
     </div>
-    <div class="works__banner">
-        <div>
-            <div class="works__banner--img cell-phone">
-                <div class="content app">
-                    <img src="./img/lowtalk_Thumbnail.png" alt="">
+    <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <div class="works__banner">
+            <div>
+                <div class="works__banner--img cell-phone">
+                    <div class="content app">
+                        <img src="./img/lowtalk_Thumbnail.png" alt="">
+                    </div>
+                    <div class="content mobile">
+                        <img src="./img/app_Thumbnail-2.png" alt="">
+                    </div>
                 </div>
-                <div class="content mobile">
-                    <img src="./img/app_Thumbnail-2.png" alt="">
+            </div>
+            <div>
+                <div class="works__banner--img">
+                    <img src="./img/torn poster.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="works__banner--img">
+                    <img src="./img/Glitch.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="works__banner--img">
+                    <img src="./img/banner_210x297.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="works__banner--img line__banner--img">
+                    <img src="./img/rentcar_banner 1080X240.jpg" alt="">
+                    <img src="./img/restaurant_banner 1080X400.jpg" alt="">
+                    <img src="./img/travel_banner1920X600.jpg" alt="">
+                    <img src="./img/skin_banner 1200x400.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="works__banner--img flex-column">
+                    <img src="./img/Magazine.jpg" alt="">
+                    <img src="./img/Magazine(2).jpg" alt="">
                 </div>
             </div>
         </div>
-        <div>
-            <div class="works__banner--img">
-                <img src="./img/torn poster.jpg" alt="">
+        <div class="overlay">
+            <div class="modal">
+                <img src="./img/앱디자인-웹가이드.jpg" alt="">
             </div>
         </div>
-        <div>
-            <div class="works__banner--img">
-                <img src="./img/Glitch.png" alt="">
+        <div class="overlay-2">
+            <div class="modal">
+                <img src="./img/모바일 디자인-웹가이드-김범준.jpg" alt="">
             </div>
         </div>
-        <div>
-            <div class="works__banner--img">
-                <img src="./img/banner_210x297.jpg" alt="">
-            </div>
-        </div>
-        <div>
-            <div class="works__banner--img line__banner--img">
-                <img src="./img/rentcar_banner 1080X240.jpg" alt="">
-                <img src="./img/restaurant_banner 1080X400.jpg" alt="">
-                <img src="./img/travel_banner1920X600.jpg" alt="">
-                <img src="./img/skin_banner 1200x400.jpg" alt="">
-            </div>
-        </div>
-        <div>
-            <div class="works__banner--img flex-column">
-                <img src="./img/Magazine.jpg" alt="">
-                <img src="./img/Magazine(2).jpg" alt="">
-            </div>
-        </div>
+    </section>
     </div>
-    <div class="overlay">
-        <div class="modal">
-            <img src="./img/앱디자인-웹가이드.jpg" alt="">
-        </div>
-    </div>
-    <div class="overlay-2">
-        <div class="modal">
-            <img src="./img/모바일 디자인-웹가이드-김범준.jpg" alt="">
-        </div>
-    </div>
-</section>
 <!-- ================== works end ================== -->
 
 <!-- ================== blog ================== -->
 <section id="blog" class="blog inner">
-
         <div class="section__top">
             <div class="section__desc--wrap flex-center">
                 <p class="section__desc">
@@ -526,188 +545,193 @@
                 <h1 class="section__title">blog</h1>
             </div>
         </div>
-
-        <ul class="l-row">
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222239359733">
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-1.png" alt="movie1">
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <ul class="l-row">
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222239359733">
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-1.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>첫시간</h1>
+                                <p>
+                                    실무에서 많이 쓰이는 슬랙과 깃허브에 대해서 알아보았습니다
+                                </p>
+                            </div>
                         </div>
-                        <div class="movie-desc">
-                            <h1>첫시간</h1>
-                            <p>
-                                실무에서 많이 쓰이는 슬랙과 깃허브에 대해서 알아보았습니다
-                            </p>
+                    </a>
+                </li>
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222247043960"> 
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-2.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>폼 태그</h1>
+                                <p>
+                                    html의 폼태그에 대하여 공부하고 실습해보았습니다
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </li>
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222247043960"> 
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-2.png" alt="movie1">
+                    </a>
+                </li>
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222252670327">     
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-3.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>미니 프로젝트</h1>
+                                <p>
+                                    html 태그로 간단한 마크업등을 하였습니다
+                                </p>
+                            </div>
                         </div>
-                        <div class="movie-desc">
-                            <h1>폼 태그</h1>
-                            <p>
-                                html의 폼태그에 대하여 공부하고 실습해보았습니다
-                            </p>
+                    </a>
+                </li>
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222263298242">
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-4png.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>CSS 시작</h1>
+                                <p>
+                                    CSS의 첫걸음을 뗀날
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </li>
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222252670327">     
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-3.png" alt="movie1">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <ul class="l-row">
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222345831406">
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-5.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>반응형</h1>
+                                <p>
+                                    미디어쿼리를 이용하여서 반응형 그리드 만드는 법을 배웠습니다
+                                </p>
+                            </div>
                         </div>
-                        <div class="movie-desc">
-                            <h1>미니 프로젝트</h1>
-                            <p>
-                                html 태그로 간단한 마크업등을 하였습니다
-                            </p>
+                    </a>
+                </li>
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222358462279">
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-6.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>서울대학교 클론</h1>
+                                <p>
+                                    서울대학교 홈페이지를 클론코딩을 하며 디버깅한 과정을 세세하게 담아보았습니다
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </li>
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222263298242">
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-4png.png" alt="movie1">
+                    </a>
+                </li>
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222375346961">
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-7.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>Javascript 시작</h1>
+                                <p>
+                                    Javascript의 첫걸음을 뗀날
+                                </p>
+                            </div>
                         </div>
-                        <div class="movie-desc">
-                            <h1>CSS 시작</h1>
-                            <p>
-                                CSS의 첫걸음을 뗀날
-                            </p>
+                    </a>
+                </li>
+                <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
+                    <a href="https://blog.naver.com/rhrortpsxj12/222394932880">
+                        <div class="cover">
+                            <div class="movie-photo">
+                                <img src="./img/blog-8.png" alt="movie1">
+                            </div>
+                            <div class="movie-desc">
+                                <h1>jQuery 사용법</h1>
+                                <p>
+                                    jQuery를 이용하여서 슬라이드를 만들었고 사용법을 정말 세세하게 담았습니다
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </li>
-        </ul>
-        <ul class="l-row">
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222345831406">
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-5.png" alt="movie1">
-                        </div>
-                        <div class="movie-desc">
-                            <h1>반응형</h1>
-                            <p>
-                                미디어쿼리를 이용하여서 반응형 그리드 만드는 법을 배웠습니다
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222358462279">
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-6.png" alt="movie1">
-                        </div>
-                        <div class="movie-desc">
-                            <h1>서울대학교 클론</h1>
-                            <p>
-                                서울대학교 홈페이지를 클론코딩을 하며 디버깅한 과정을 세세하게 담아보았습니다
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222375346961">
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-7.png" alt="movie1">
-                        </div>
-                        <div class="movie-desc">
-                            <h1>Javascript 시작</h1>
-                            <p>
-                                Javascript의 첫걸음을 뗀날
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="l-col l-col-3-12 l-col-tablet-6-12 l-col-mobile-12-12">
-                <a href="https://blog.naver.com/rhrortpsxj12/222394932880">
-                    <div class="cover">
-                        <div class="movie-photo">
-                            <img src="./img/blog-8.png" alt="movie1">
-                        </div>
-                        <div class="movie-desc">
-                            <h1>jQuery 사용법</h1>
-                            <p>
-                                jQuery를 이용하여서 슬라이드를 만들었고 사용법을 정말 세세하게 담았습니다
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </li>
-        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
 </section>
 <!-- ================ blog end ==================== -->
 
 <!-- ================ conatct ==================== -->
-<section class="" id="contact">
-    <div class="inner">
-        <div class="content">
-            <div class="contact-info">
-                <h3>contact info</h3>
-                <div class="contact-info-box">
-                    <div class="box">
-                        <div class="icon">
-                            <i class="xi-maker"></i>
+<div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+    <section class="" id="contact">
+        <div class="inner">
+            <div class="content">
+                <div class="contact-info">
+                    <h3>contact info</h3>
+                    <div class="contact-info-box">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="xi-maker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>address</h3>
+                                <p>경북 경산시 경안로</p>
+                            </div>
                         </div>
-                        <div class="text">
-                            <h3>address</h3>
-                            <p>경북 경산시 경안로</p>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="xi-call"></i>
+                            </div>
+                            <div class="text">
+                                <h3>phone</h3>
+                                <p>010 3395 2934</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i class="xi-call"></i>
-                        </div>
-                        <div class="text">
-                            <h3>phone</h3>
-                            <p>010 3395 2934</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i class="xi-mail"></i>
-                        </div>
-                        <div class="text">
-                            <h3>email</h3>
-                            <p>gimb52043@gmail.com</p>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="xi-mail"></i>
+                            </div>
+                            <div class="text">
+                                <h3>email</h3>
+                                <p>gimb52043@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="form-box">
-                <form>
-                    <h3>message me</h3>
-                    <input type="text"  name="" placeholder="name" required>
-                    <input type="text" name="" placeholder="email" required>
-                    <textarea placeholder="your message"></textarea>
-                    <input type="submit" value="send">
-                </form>
+                <div class="form-box">
+                    <form>
+                        <h3>message me</h3>
+                        <input type="text"  name="" placeholder="name" required>
+                        <input type="text" name="" placeholder="email" required>
+                        <textarea placeholder="your message"></textarea>
+                        <input type="submit" value="send">
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="planet planet-earth hidden">
-        <div class="earth-container">
-            <div class="loader"></div>
-            <div class="earth"></div>
+        <div class="planet planet-earth hidden">
+            <div class="earth-container">
+                <div class="loader"></div>
+                <div class="earth"></div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 <!-- ================ conatct end ==================== -->
 
 
