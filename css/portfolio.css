@@ -35,7 +35,6 @@
     transform: translateY(0);
 }
 /* =============== skip end ===============
-
 /* ================== light-mode ============== */
 body {
     background: url(../img/dark-mode\ background.jpg);
@@ -851,31 +850,31 @@ section#portfolio {
     transform: translateY(-5px);
     box-shadow: 4px 12px 20px 6px rgb(0 0 0 / 18%);
 }
-.movie-photo,
-.movie-desc {
+.blog-photo,
+.blog-desc {
     position: absolute;
     width: 100%;
     height: 50%;
 }
-.movie-photo {
+.blog-photo {
     top: 0;
     left: 0;
 }
-.movie-photo img {
+.blog-photo img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
-.movie-desc {
+.blog-desc {
     top: 50%;
     left: 0;
     padding: 1rem;
     font-family: 'ChosunGu';
 }
-.movie-desc h1 {
+.blog-desc h1 {
     margin-bottom: 5px;
 }
-.movie-desc p {
+.blog-desc p {
     line-height: 20px;
     height: 6em;
     overflow: hidden;
