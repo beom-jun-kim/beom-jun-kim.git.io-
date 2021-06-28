@@ -1248,6 +1248,9 @@ section#portfolio {
         width: 50%;
         margin: 10px;
     }
+    .about__item--desc p {
+        display: none;
+    }
     .cell-phone {
         transform: translateY(30%);
     }
